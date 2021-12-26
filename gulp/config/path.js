@@ -8,8 +8,9 @@ const source_folder = `./#src`;
 
 export const path = {
     build: {
-        files: `${buildFolder/files/`
+        files: `${buildFolder}/**/*.*`
     },
+
     src: {
         files: `${srcFolder}/files/**/*.*`,
     },
@@ -19,3 +20,4 @@ export const path = {
     srcFolder: srcFolder,
     rootFolder: rootFolder,
     ftp: ``
+}

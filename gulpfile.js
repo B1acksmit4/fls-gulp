@@ -10,6 +10,23 @@ global.app = {
 }
 
 
+// Импорт задач
+import { copy } from "./gulp/tasks/copy.js";
+
+// Выполнение сценария по умолчанию
+gulp.task('default', copy);
+
+
+
+
+
+
+
+
+
+
+
+
 
 // let project_folder = "dist";
 // let source_folder = "#src";
